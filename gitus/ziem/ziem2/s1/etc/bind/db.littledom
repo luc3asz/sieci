@@ -1,0 +1,12 @@
+$TTL   60000
+@               IN      SOA     dnsorg.org.    root.dnsorg.org. (
+                        2018052501 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                   IN      NS      littledom.
+service              IN      A       192.64.3.130
+suba     IN      A       192.64.3.1
+subb     IN      A       192.64.3.129

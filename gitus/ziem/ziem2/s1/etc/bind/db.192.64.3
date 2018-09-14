@@ -1,0 +1,14 @@
+; reverse lookup database 
+$TTL    1
+@               IN      SOA     3.64.192.in-addr.arpa.    nobody.nowhere. (
+                        2018052501 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl 
+                        )
+@                            IN      NS      130.3.64.192.in-addr.arpa.
+130.3.64.192.in-addr.arpa.    IN      A       192.64.3.130
+130         PTR       service.littledom.
+1     PTR       suba.littledom.
+129         PTR       subb.littledom.

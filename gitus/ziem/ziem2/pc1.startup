@@ -1,0 +1,2 @@
+/sbin/dhclient
+route add default gw 192.64.3.1 dev eth0
